@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Lato-black;
+    src: url(../assets/font/Lato/Lato-Black.ttf);
+}
+
+@font-face {
+    font-family: Lato-bold;
+    src: url(../assets/font/Lato/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: Lato-regular;
+    src: url(../assets/font/Lato/Lato-Regular.ttf);
+}
+
+root {
+    --colorPrimary: #8A6C99;
+    --colorSecondary: #E5E0BA;
+    --colorsecondary-Dark: #999474;
+    --colorTertiary: #93E58C;
+    --colorTertiary-Dark: #699965;
+
+
+    --h1Size: 2.25rem;
+    --h2Size: 2.125rem;
+    --h3Size: 1.75rem;
+    --h4Size: 1.5rem;
+    --h5Size: 1.125rem
+
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Lato-regular';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*
+    Header
+*/
+
+
+/*
+    Main
+*/
+
+
+/*
+    footer
+*/
+
+
+
+/*
+    Typografi
+*/
+h1 {
+    font-family: 'Lato-black';
+    font-size: var(--h1Size);
+}
+
+h2 {
+    font-family: 'Lato-bold';
+    font-size: var(--h2Size);
+}
+
+h3 {
+    font-family: 'Lato-bold';
+    font-size: var(--h3Size);
+}
+
+h4 {
+    font-family: 'Lato-blod';
+    font-size: var(--h4Size)
+}
+
+h5 {
+    font-family: 'Lato-regular';
+    font-size: var(--h5Size);
+}
