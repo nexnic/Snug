@@ -23,6 +23,10 @@ slogObj = {
             price: '',
             onstock: true, 
             stock: 10,
+            image: {
+                [0]: 'url',
+                [1]: 'url',
+            },
 
         },
         [1]: {
@@ -33,6 +37,10 @@ slogObj = {
             price: '',
             onstock: true,
             stock: 15,
+            image: {
+                [0]: 'url',
+                [1]: 'url',
+            },
         },
         [2]: {
             id: 3,
@@ -42,6 +50,10 @@ slogObj = {
             price: '',
             onstock: false,
             stock: 1,
+            image: {
+                [0]: 'url',
+                [1]: 'url',
+            },
         },
         [3]: {
             id: 4,
@@ -51,6 +63,10 @@ slogObj = {
             price: '',
             onstock: true,
             stock: 2,
+            image: {
+                [0]: 'url',
+                [1]: 'url',
+            },
         },
         [4]: {
             id: 5,
@@ -60,6 +76,10 @@ slogObj = {
             price: '',
             onstock: false,
             stock: 100,
+            image: {
+                [0]: 'url',
+                [1]: 'url',
+            },
         }
     }
 }
