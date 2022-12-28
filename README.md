@@ -21,9 +21,14 @@ You can list a the tech stack that you've used over here
 - [Javascript](https://www.w3schools.com/js/)
 - [CSS](https://www.w3schools.com/css/)
 - [HTML](https://www.w3schools.com/html/)
+- [Adobe-XD](https://helpx.adobe.com/xd/get-started.html);
+- [Micro-FlowChart](https://miro.com/);
 
 
 ## Getting Started
+
+### Design 
+[User-Persona](https://xd.adobe.com/view/66a33f77-09ad-4484-a2b9-f85d21050b4d-33f0/);
 
 ### Installing
 
