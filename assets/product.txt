@@ -1,0 +1,45 @@
+// product 
+
+    1. 
+        Name: snug dold fee
+        short-description: The unique 4-1 carries
+        Description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        Price: 3000,-
+        Spec
+        Cotten: 30%;
+        Linen: 45%;
+        Machine Washable
+
+    2. 
+        Name: Snug Baby´s Babba
+        short-description: The unique baby experts
+        Description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        price: 1500 ,-
+        Spec
+            Cotten: 15%;
+            linen: 75%
+            hand Washable
+    
+    3. 
+        Name: Snug Bobbo baby
+        short-description: The unique Friendly baby
+        Description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        price: 2500,-
+        Spec: 
+            Cotten: 60%;
+            linen: 75%;
+            Machine Washable
+    
+    4. 
+        Name: Snug Ageless baby
+        short-description: The uniqe Ageless baby carriers
+        description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        price: 5000 ,-
+        spec:
+            cotten: 30%
+            Linen: 70%;
+            Machine Washable
