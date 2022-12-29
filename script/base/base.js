@@ -26,6 +26,8 @@
         let itemCart = []
     // Product Object 
         let snugObj
+    // Getting Page your are on
+        let path = window.location.pathname;
 // API
     // URL 
         const URL = 'https://frontendkenterik.no/slugapi/wp-json/wc/v3'
@@ -54,6 +56,8 @@ function CheckInterval() {
         // Need to make a clear interval
         console.log('complett')
         clearinterval(startInterval);
+        productHome();
+        checkPage();
     }
 }
 
@@ -63,3 +67,13 @@ function CheckInterval() {
         clearInterval(value1);
     }
 
+// Check Page 
+function checkPage(){
+    let home = '/index.html';
+
+    if(path === home){
+        console.log('Home');
+    }
+
+
+}
