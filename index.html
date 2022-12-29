@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Snug | Home</title>
     <!-- Css  -->
     <link rel="stylesheet" href="./css/main.css">
     <!-- Hotjar Tracking Code for Snug -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:3303145,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:3303145,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
 </head>
 <body>
     <header>
@@ -32,12 +32,63 @@
                             Home
                         </a>
                     </li>
+                    <li>
+                        <a href="#about"></a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="hamburger" onclick="toogleMenu(this)">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">contact</a>
+                    </li>
                 </ul>
             </div>
         </nav>
     </header>
-    <main></main>
-    <footer></footer>
-    <script src="./script/startup.js"></script>
+    <main>
+
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <h5>Follow us</h5>
+            </li>
+            <li></li>
+            <li></li>
+        </ul>
+        <ul>
+            <li>
+                <h5>
+                    Useful Links
+                </h5>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <h5>
+                    Payment
+                </h5>
+            </li>
+        </ul>
+    </footer>
+    <!-- Javascript -->
+    <script src="./script/base/base.js"></script>
+    <script src="./script/function/api.js"></script>
+    <script src="./script/function/function.js"></script>
 </body>
 </html>
