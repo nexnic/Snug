@@ -23,12 +23,14 @@ You can list a the tech stack that you've used over here
 - [HTML](https://www.w3schools.com/html/)
 - [Adobe-XD](https://helpx.adobe.com/xd/get-started.html);
 - [Micro-FlowChart](https://miro.com/);
-
+- [hotjar](https://www.hotjar.com/)
+- [Woocommerce-api](https://woocommerce.com/document/woocommerce-rest-api/);
 
 ## Getting Started
 
 ### Design 
-[User-Persona](https://xd.adobe.com/view/66a33f77-09ad-4484-a2b9-f85d21050b4d-33f0/);
+- [User-Persona](https://xd.adobe.com/view/66a33f77-09ad-4484-a2b9-f85d21050b4d-33f0/);
+- [Prototype]()
 
 ### Installing
 
@@ -37,7 +39,7 @@ This is where you list how to get the project started. It typically just include
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+git clone git@github.com:nexnic/Snug.git
 ```
 
 2. Install the dependencies:

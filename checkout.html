@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="baby carrier, snug">
+    <meta name="author" content="Kent Erik Hole">
+    <title>Snug | Checkout</title>
+    <!-- Icon for brows -->
+    <link rel="icon" href="./assets/images/Logo-primary.png">
+    <!-- Css  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- FontAwesome Icon -->
+    <script src="https://kit.fontawesome.com/6b4917e13e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="cart">
+                <ul class="cart-contain">
+                    <li class="cart-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </li>
+                    <li class="cart-amount">
+                        
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <img src="./assets/images/Logo-primary.png" alt="" style="width: 50px;">
+            </div>
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="./index.html" class="link-nav">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="link-nav">About</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="link-nav">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <main class="main-checkout">
+        <div class="checkout-head">
+            <h1>Checkout</h1>
+        </div>
+        <div class="checkout-container" id="shipping">
+            <h3>1. Shipping Address</h3>
+            <label for="makeaccount" id="lableaccount">
+            <input type="checkbox" id="makeaccount">
+            Create an Account</label>
+            <form action="" id="form">
+                <label for="fname"></label>
+                <input type="text" id="fname" value="Full Name *" class="input-default" required>
+                <label for="email"></label> 
+                <input type="email" name="email" id="email" value="Email: *" class="input-default" required>
+                <label for=""></label>
+                <input type="text" name="address" id="address" value="address: *" class="input-default" required>
+                <label for=""></label>
+                <input type="number" name="postcode" id="postcode" value="Postal code: *" class="input-default" required>
+                <label for=""></label>
+                <input type="text" name="comments" id="comments" value="Comments (e.g Door entry)" class="input-default" >
+            </form>
+        </div>
+        <div class="checkout-container" id="payment">
+            <form action="" id="form">
+                <label for="bnumber"></label>
+                <input type="number" id="bnumber" value="1234 5678 9012 3456" required>
+                <label for="bdata"></label>
+                <input type="week" name="bdata" id="bdata" required>
+                <label for="cid"></label>
+                <input type="number" required>
+                <label for="bname"></label>
+                <input type="text" id="bname" required>
+                <br>
+                <label for=""></label>
+                <button type="submit" class="cart-btn" id="place-order">Place Order</button>
+            </form>
+        </div>
+        <div class="product-done hidden">
+            <img src="./assets/images/Logo-primary.png" alt="" class="img-product">
+            <h2>Thanks for using us</h2>
+            <p>Your product will be shipping</p>
+            <br>
+            <a href="./index.html" class="link-nav">See flere producter</a>
+            <br>
+        </div>
+    </main>
+    <footer class="footer">
+        <footer class="footer">
+            <ul>
+                <li>
+                    <h5 class="header-footer">Follow us</h5>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h5 class="header-footer">
+                        Useful Links
+                    </h5>
+                </li>
+                <li>
+                    <a href="#" class="link-footer">About us</a>
+                </li>
+                <li>
+                    <a href="#" class="link-footer">Contact us</a>
+                </li>
+                <li>
+                    <a href="#" class="link-footer">Term of Use</a>
+                </li>
+                <li>
+                    <a href="#" class="link-footer">Privacy Policy</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h5 class="header-footer">
+                        Payment
+                    </h5>
+                </li>
+                <li>
+                    <a href="https://www.visa.no/">
+                        <i class="fa-brands fa-cc-visa"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.mastercard.no/no-no.html">
+                        <i class="fa-brands fa-cc-mastercard"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </footer>
+    <!-- script  -->
+        <!-- Base Script -->
+        <script src="./script/base/base.js"></script>
+        <!-- Check out-->
+        <script src="./script/page/checkout.js"></script>
+</body>
+</html>
